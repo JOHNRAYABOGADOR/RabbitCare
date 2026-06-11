@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RabbitCare – Premium Rabbit Health & Wellness</title>
+  <meta name="description" content="RabbitCare is the all-in-one platform for rabbit owners. Track health, get vet-approved nutrition plans, and book expert care – all in one place." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="#" class="logo" id="logo-link">
+        <span class="logo-icon">🐰</span>
+        <span class="logo-text">RabbitCare</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#features" id="nav-features">Features</a>
+        <a href="#how-it-works" id="nav-how">How It Works</a>
+        <a href="#testimonials" id="nav-testimonials">Reviews</a>
+        <a href="#contact" id="nav-contact">Contact</a>
+      </nav>
+      <a href="#pricing" class="btn btn-primary btn-sm" id="nav-cta">Get Started</a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-blob blob-1"></div>
+    <div class="hero-bg-blob blob-2"></div>
+    <div class="container hero-inner">
+      <div class="hero-text" data-animate="fade-up">
+        <span class="badge">🌿 Trusted by 50,000+ Rabbit Owners</span>
+        <h1 class="hero-title">
+          Expert Care for<br />
+          <span class="gradient-text">Your Beloved Bunny</span>
+        </h1>
+        <p class="hero-subtitle">
+          RabbitCare brings vet-grade health tracking, personalised nutrition plans,
+          and on-demand expert advice — all in one beautiful platform.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary btn-lg" id="hero-cta-start">
+            Start Free Trial
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#how-it-works" class="btn btn-ghost btn-lg" id="hero-cta-demo">
+            ▶ Watch Demo
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>50K+</strong>
+            <span>Happy Owners</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>200+</strong>
+            <span>Vet Partners</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>4.9★</strong>
+            <span>App Rating</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-wrap" data-animate="fade-left">
+        <div class="hero-image-card">
+          <img src="images/hero.png" alt="Happy rabbit in a meadow" class="hero-img" id="hero-img" />
+          <div class="floating-card card-health" id="float-health">
+            <span class="card-icon">❤️</span>
+            <div>
+              <strong>Health Score</strong>
+              <span>Excellent — 98/100</span>
+            </div>
+          </div>
+          <div class="floating-card card-meal" id="float-meal">
+            <span class="card-icon">🥕</span>
+            <div>
+              <strong>Meal Reminder</strong>
+              <span>Hay + Pellets — 6:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fff"/></svg>
+    </div>
+  </section>
+
+  <!-- ===== LOGOS / TRUST ===== -->
+  <section class="trust-strip" id="trust">
+    <div class="container">
+      <p class="trust-label">As seen in & trusted by</p>
+      <div class="trust-logos">
+        <span class="trust-logo">🐾 PetWorld</span>
+        <span class="trust-logo">🏥 VetConnect</span>
+        <span class="trust-logo">🌿 BunnyCo</span>
+        <span class="trust-logo">📰 PetDaily</span>
+        <span class="trust-logo">🎗️ RabbitSociety</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="badge">✨ Everything You Need</span>
+        <h2>Built for Bunny Parents</h2>
+        <p>One powerful platform to keep your rabbit thriving — from nose to tail.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" id="feature-health" data-animate="fade-up" style="--delay:0s">
+          <div class="feature-icon">❤️</div>
+          <h3>Health Monitoring</h3>
+          <p>Log symptoms, track weight, and get instant AI-powered health insights. Catch issues early before they become costly vet visits.</p>
+          <a href="#contact" class="feature-link">Learn more →</a>
+        </div>
+        <div class="feature-card featured" id="feature-nutrition" data-animate="fade-up" style="--delay:0.1s">
+          <div class="feature-badge">Most Popular</div>
+          <div class="feature-icon">🥗</div>
+          <h3>Nutrition Planner</h3>
+          <p>Vet-curated meal plans tailored to your rabbit's breed, age, and health status. Never guess what to feed your bunny again.</p>
+          <a href="#contact" class="feature-link">Learn more →</a>
+        </div>
+        <div class="feature-card" id="feature-vet" data-animate="fade-up" style="--delay:0.2s">
+          <div class="feature-icon">👩‍⚕️</div>
+          <h3>Vet On-Demand</h3>
+          <p>Chat with licensed rabbit-specialist vets anytime, anywhere. Get expert answers in minutes, not days.</p>
+          <a href="#contact" class="feature-link">Learn more →</a>
+        </div>
+        <div class="feature-card" id="feature-reminders" data-animate="fade-up" style="--delay:0.3s">
+          <div class="feature-icon">📅</div>
+          <h3>Smart Reminders</h3>
+          <p>Never miss a vaccination, grooming session, or medication dose. Smart alerts keep your routine on track.</p>
+          <a href="#contact" class="feature-link">Learn more →</a>
+        </div>
+        <div class="feature-card" id="feature-community" data-animate="fade-up" style="--delay:0.4s">
+          <div class="feature-icon">🐇</div>
+          <h3>Community Hub</h3>
+          <p>Connect with thousands of rabbit owners. Share tips, ask questions, and celebrate your bunny's milestones together.</p>
+          <a href="#contact" class="feature-link">Learn more →</a>
+        </div>
+        <div class="feature-card" id="feature-records" data-animate="fade-up" style="--delay:0.5s">
+          <div class="feature-icon">📋</div>
+          <h3>Digital Health Records</h3>
+          <p>All medical history, vaccination records, and vet notes in one secure place. Share instantly with any vet worldwide.</p>
+          <a href="#contact" class="feature-link">Learn more →</a>
+        </div>
+      </div>
+      <div class="features-visual" data-animate="fade-up">
+        <img src="images/features.png" alt="RabbitCare feature icons - health, nutrition and scheduling" class="features-img" id="features-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="badge">🚀 Simple Setup</span>
+        <h2>Up & Running in 3 Easy Steps</h2>
+        <p>Getting started takes less than 5 minutes.</p>
+      </div>
+      <div class="steps-wrap">
+        <div class="steps-image" data-animate="fade-right">
+          <img src="images/about.png" alt="Person bonding with their rabbit" class="steps-img" id="steps-img"/>
+          <div class="steps-image-badge">
+            <span>🐰</span>
+            <div>
+              <strong>Bella</strong>
+              <small>Holland Lop · 2 yrs</small>
+            </div>
+          </div>
+        </div>
+        <div class="steps-list" data-animate="fade-left">
+          <div class="step" id="step-1">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Create Your Rabbit's Profile</h3>
+              <p>Enter your bunny's breed, age, and health history. Our smart system builds a personalised care plan instantly.</p>
+            </div>
+          </div>
+          <div class="step" id="step-2">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Get Your Care Dashboard</h3>
+              <p>See health scores, upcoming tasks, meal plans, and vet recommendations all on one beautiful dashboard.</p>
+            </div>
+          </div>
+          <div class="step" id="step-3">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Stay Connected & Informed</h3>
+              <p>Receive daily tips, smart alerts, and access our vet network whenever you need expert guidance.</p>
+            </div>
+          </div>
+          <a href="#pricing" class="btn btn-primary btn-lg" id="steps-cta" style="margin-top:2rem">Start Free – No Credit Card</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="badge">💬 Real Stories</span>
+        <h2>Loved by Bunny Families Everywhere</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" id="review-1" data-animate="fade-up" style="--delay:0s">
+          <div class="stars">★★★★★</div>
+          <p>"RabbitCare completely changed how I look after Mochi. The nutrition planner is spot-on and the vet chat saved us a $300 emergency visit!"</p>
+          <div class="reviewer">
+            <div class="avatar" style="background:#f4a261">SL</div>
+            <div>
+              <strong>Sarah L.</strong>
+              <small>Owner of Mochi the Lionhead</small>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" id="review-2" data-animate="fade-up" style="--delay:0.15s">
+          <div class="stars">★★★★★</div>
+          <p>"I was a first-time rabbit owner and had no idea what I was doing. RabbitCare's step-by-step guidance made me feel confident from day one."</p>
+          <div class="reviewer">
+            <div class="avatar" style="background:#2a9d8f">JK</div>
+            <div>
+              <strong>James K.</strong>
+              <small>Owner of Biscuit the Mini Rex</small>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" id="review-3" data-animate="fade-up" style="--delay:0.3s">
+          <div class="stars">★★★★★</div>
+          <p>"The health monitoring caught a tooth issue early that I never would have noticed. My vet was impressed at how detailed the records were!"</p>
+          <div class="reviewer">
+            <div class="avatar" style="background:#e76f51">AM</div>
+            <div>
+              <strong>Anika M.</strong>
+              <small>Owner of Cinnamon & Nutmeg</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="badge">💎 Simple Pricing</span>
+        <h2>Plans That Grow With Your Bunny</h2>
+        <p>Start free. Upgrade anytime. No hidden fees.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card" id="plan-free" data-animate="fade-up" style="--delay:0s">
+          <div class="plan-name">Starter</div>
+          <div class="plan-price"><span>$0</span><small>/month</small></div>
+          <ul class="plan-features">
+            <li>✅ 1 Rabbit Profile</li>
+            <li>✅ Basic Health Log</li>
+            <li>✅ Community Access</li>
+            <li>✅ Email Support</li>
+            <li class="disabled">❌ Nutrition Planner</li>
+            <li class="disabled">❌ Vet On-Demand</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-full" id="plan-free-cta">Get Started Free</a>
+        </div>
+        <div class="pricing-card featured" id="plan-pro" data-animate="fade-up" style="--delay:0.1s">
+          <div class="plan-badge">Most Popular</div>
+          <div class="plan-name">Pro</div>
+          <div class="plan-price"><span>$9.99</span><small>/month</small></div>
+          <ul class="plan-features">
+            <li>✅ Up to 5 Rabbit Profiles</li>
+            <li>✅ Advanced Health Tracking</li>
+            <li>✅ Full Nutrition Planner</li>
+            <li>✅ Smart Reminders</li>
+            <li>✅ Vet Chat (5 sessions/mo)</li>
+            <li>✅ Priority Support</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-full" id="plan-pro-cta">Start 14-Day Free Trial</a>
+        </div>
+        <div class="pricing-card" id="plan-family" data-animate="fade-up" style="--delay:0.2s">
+          <div class="plan-name">Family</div>
+          <div class="plan-price"><span>$19.99</span><small>/month</small></div>
+          <ul class="plan-features">
+            <li>✅ Unlimited Rabbit Profiles</li>
+            <li>✅ Everything in Pro</li>
+            <li>✅ Unlimited Vet Chat</li>
+            <li>✅ Digital Health Records</li>
+            <li>✅ Dedicated Care Advisor</li>
+            <li>✅ 24/7 Emergency Line</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-full" id="plan-family-cta">Start 14-Day Free Trial</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner" id="cta-banner">
+    <div class="container cta-inner" data-animate="fade-up">
+      <div class="cta-text">
+        <h2>Ready to Give Your Bunny the Best Life?</h2>
+        <p>Join 50,000+ rabbit owners who trust RabbitCare every day.</p>
+      </div>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn btn-white btn-lg" id="banner-cta-demo">Book a Free Demo</a>
+        <a href="#pricing" class="btn btn-outline-white btn-lg" id="banner-cta-trial">Start Free Trial</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="badge">📬 Get In Touch</span>
+        <h2>We'd Love to Hear From You</h2>
+        <p>Have questions? Our team is here to help.</p>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-info" data-animate="fade-right">
+          <div class="contact-item" id="contact-email">
+            <span class="contact-icon">📧</span>
+            <div>
+              <strong>Email Us</strong>
+              <a href="mailto:hello@rabbitcare.com">hello@rabbitcare.com</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-phone">
+            <span class="contact-icon">📞</span>
+            <div>
+              <strong>Call Us</strong>
+              <a href="tel:+18005552273">+1 (800) 555-CARE</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-address">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Visit Us</strong>
+              <span>123 Clover Lane, Suite 4, San Francisco, CA 94102</span>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-hours">
+            <span class="contact-icon">🕐</span>
+            <div>
+              <strong>Office Hours</strong>
+              <span>Mon–Fri: 9AM – 6PM PST</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" id="social-instagram" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" id="social-facebook" aria-label="Facebook">👥</a>
+            <a href="#" class="social-link" id="social-twitter" aria-label="Twitter / X">🐦</a>
+            <a href="#" class="social-link" id="social-youtube" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" data-animate="fade-left" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="form-name">Your Name</label>
+            <input type="text" id="form-name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="form-email">Email Address</label>
+            <input type="email" id="form-email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="form-subject">Subject</label>
+            <select id="form-subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option value="demo">Book a Demo</option>
+              <option value="pricing">Pricing Question</option>
+              <option value="support">Technical Support</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="form-message">Message</label>
+            <textarea id="form-message" name="message" rows="4" placeholder="Tell us how we can help…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">Send Message 🐰</button>
+          <div class="form-success" id="form-success" style="display:none">
+            ✅ Message sent! We'll get back to you within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo" id="footer-logo">
+          <span class="logo-icon">🐰</span>
+          <span class="logo-text">RabbitCare</span>
+        </a>
+        <p>Expert care for your beloved bunny, every single day.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <strong>Product</strong>
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#how-it-works">How It Works</a>
+        </div>
+        <div class="footer-col">
+          <strong>Company</strong>
+          <a href="#">About Us</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="footer-col">
+          <strong>Support</strong>
+          <a href="#contact">Contact</a>
+          <a href="#">Help Center</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 RabbitCare. All rights reserved. Made with 🐰 for bunny lovers.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
